@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import UsersList from './UserList';
+import UsersList from './UsersList';
 import './index.scss';
 
 const rootElement = document.querySelector('#root');
@@ -39,6 +39,16 @@ const users = [
   {
     id: 7,
     name: 'Sammi',
+    age: 19,
+  },
+  {
+    id: 8,
+    name: 'Page',
+    age: 19,
+  },
+  {
+    id: 9,
+    name: 'Gamer1',
     age: 19,
   },
 ];
